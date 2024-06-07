@@ -1,10 +1,10 @@
 {
   "Name": "Monster Furniture Drop",
-  "Author": "AuthorName",
-  "Version": "1.0.0",
-  "Description": "<One or two sentences about the mod>",
-  "UniqueID": "AuthorName.MonsterFurnitureDrop",
+  "Author": "FistOfTheNoob & MangusuPixel",
+  "Version": "1.0.1",
+  "Description": "Monsters drop vanilla and modded furniture",
+  "UniqueID": "FistOfTheNoob.MonsterFurnitureDrop",
   "EntryDll": "MonsterFurnitureDrop.dll",
   "MinimumApiVersion": "4.0.0",
-  "UpdateKeys": []
+  "UpdateKeys": [ "Nexus:24800" ]
 }
