@@ -153,7 +153,7 @@ namespace MonsterFurnitureDrop
                 if (rawData.Length > 7 && rawData[7] is null or "")
                     continue; // Invalid display name
 
-                if (rawData.Length > 10 && bool.Parse(rawData[10]))
+                if (rawData.Length > 10 && bool.TryParse(rawData[10], out bool isOffLimits) && isOffLimits)
                     continue; // Item is marked as off limits for random sale
 
                 Config.ItemDropRates.Add(key, Config.DefaultItemDropRate);
